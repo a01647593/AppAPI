@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B85311DA30770F4F000BF5BB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B85311D930770F45000BF5BB /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		B85311CB307707A5000BF5BB /* AppAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85311CB307707A5000BF5BB /* AppAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AppAPI.app; path = "/Users/kreb/Desktop/AppAPI/build/Debug-iphoneos/AppAPI.app"; sourceTree = "<absolute>"; };
+		B85311D930770F45000BF5BB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +38,8 @@
 			isa = PBXGroup;
 			children = (
 				B85311CD307707A5000BF5BB /* AppAPI */,
-				B85311CC307707A5000BF5BB /* Products */,
+				B85311D930770F45000BF5BB /* README.md */,
 			);
-			sourceTree = "<group>";
-		};
-		B85311CC307707A5000BF5BB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B85311CB307707A5000BF5BB /* AppAPI.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +92,7 @@
 			mainGroup = B85311C2307707A5000BF5BB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B85311CC307707A5000BF5BB /* Products */;
+			productRefGroup = B85311C2307707A5000BF5BB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +106,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85311DA30770F4F000BF5BB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
